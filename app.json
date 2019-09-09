@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Pulse Diagnosis",
+    "slug": "pulsediagnosis",
+    "description": "26 Pulses with illustrator and description. Quiz also included for reviewing.",
+    "privacy": "public",
+ "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.6.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "mobi.intcloud.pulsediagnosis"
+    },
+    "android": {
+      "package": "mobi.intcloud.pulsediagnosis"
+    }
+  }
+}
